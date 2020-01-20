@@ -1,0 +1,405 @@
+@media screen and (max-width: 1440px) {
+  header {
+    font-size: 18px;
+  }
+  header .row .headLeft .appStores #appStore {
+    height: 7vh;
+    width: 20vh;
+  }
+  header .row .headLeft2 {
+    font-size: 18px;
+  }
+  header .row .headright #image1 {
+    height: 166vh;
+  }
+  header .row .headright #image2 {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    top: 100vh;
+  }
+  .features {
+    height: 220vh;
+    font-size: 18px;
+  }
+  .features .row h2 {
+    margin-top: 5vh;
+  }
+  .features .row #mck2 {
+    margin-top: 23vh;
+  }
+  .features .row #circle2 {
+    margin-top: 25%;
+  }
+  .features .row #mck3 {
+    margin-top: 28vh;
+  }
+  .features .row #mck4 {
+    margin-top: 10vh;
+  }
+  .features .row #circle3 {
+    margin: 25% auto 0;
+  }
+  .contact {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  header {
+    font-size: 15px;
+  }
+  header .row .headLeft h1 {
+    font-size: 35px;
+  }
+  header .row .headLeft2 {
+    font-size: 16px;
+  }
+  header .row .headLeft2 ul {
+    margin-top: 15vh;
+  }
+  header .row .headLeft2 ul li {
+    padding: 10px 0;
+  }
+  header .row .headright #image2 {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  .features {
+    min-height: 260vh;
+  }
+  .contact {
+    height: 108vh;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    font-size: 13px;
+  }
+  header .row .headLeft h1 {
+    font-size: 27px;
+  }
+  header .row .headLeft #logoImg {
+    height: 130px;
+    width: 130px;
+    margin: 7rem 0 2rem 0;
+  }
+  header .row .headLeft2 {
+    font-size: 13px;
+  }
+  header .row .headright #image2 {
+    left: -150px;
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+    top: 120vh;
+    -webkit-animation: fadeInDown 3s ease forwards;
+            animation: fadeInDown 3s ease forwards;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+  }
+  @-webkit-keyframes fadeInDown {
+    0% {
+      top: 120vh;
+    }
+    100% {
+      top: 70vh;
+    }
+  }
+  @keyframes fadeInDown {
+    0% {
+      top: 120vh;
+    }
+    100% {
+      top: 70vh;
+    }
+  }
+  .features {
+    min-height: 250vh;
+    font-size: 14px;
+  }
+  .features .row img {
+    height: 400px;
+    width: 230px;
+  }
+  .features .row .circle {
+    height: 310px;
+    width: 310px;
+  }
+  .features .row .center1 {
+    padding: 10px;
+  }
+  .features .row .center2 {
+    padding: 10px;
+  }
+  .features .row #circle3 #textIn {
+    padding-top: 8rem;
+    font-size: 35px;
+  }
+  .download .appDownloads img {
+    height: 8vh;
+  }
+  .contact {
+    min-height: 100vh;
+  }
+  .contact .btn {
+    padding: 8px 27px;
+  }
+  .contact .links {
+    margin-top: 8vh;
+  }
+  .contact .links ul li {
+    padding: 0 25px;
+  }
+  .contact .links ul li p {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .contact .links ul img {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    font-size: 10px;
+  }
+  header .row .headLeft {
+    padding: 0 60px;
+  }
+  header .row .headLeft #logoImg {
+    height: 100px;
+    width: 100px;
+  }
+  header .row .headLeft h1 {
+    font-size: 20px;
+  }
+  header .row .headLeft .appStores {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .row .headLeft .appStores #appStore {
+    margin-top: 20px;
+    height: 10vh;
+    width: 28vh;
+  }
+  header .row .headLeft2 {
+    padding: 0 60px;
+    font-size: 10px;
+  }
+  header .row .headright #image2 {
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
+    left: -100px;
+    top: 120vh;
+    -webkit-animation: fadeInDown 3s ease forwards;
+            animation: fadeInDown 3s ease forwards;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+  }
+  @-webkit-keyframes fadeInDown {
+    0% {
+      top: 120vh;
+    }
+    100% {
+      top: 75vh;
+    }
+  }
+  @keyframes fadeInDown {
+    0% {
+      top: 120vh;
+    }
+    100% {
+      top: 75vh;
+    }
+  }
+  .features {
+    font-size: 10px;
+    min-height: 170vh;
+    width: 100%;
+  }
+  .features .row img {
+    height: 280px;
+    width: 180px;
+  }
+  .features .row .circle {
+    height: 250px;
+    width: 250px;
+  }
+  .features .row #mck4 {
+    margin-top: 18vh;
+  }
+  .features .row #circle2 {
+    margin-top: 40%;
+  }
+  .features .row #circle3 {
+    margin: 30% auto 0;
+  }
+  .features .row #circle3 #textIn {
+    font-size: 25px;
+    padding-top: 7rem;
+  }
+  .download h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    font-size: 14px;
+  }
+  header .row .headLeft h1 {
+    font-size: 30px;
+  }
+  header .row .headLeft .appStores #appStore {
+    height: 9vh;
+  }
+  header .row .headLeft2 {
+    font-size: 14px;
+  }
+  header .row .headright {
+    display: none;
+  }
+  .features .row .circle {
+    display: none;
+  }
+  .features .row img {
+    position: relative;
+  }
+  .features .row #mck1 {
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  .features .row #mck2 {
+    margin: 0;
+    margin-top: 40px;
+  }
+  .features .row #mck3 {
+    margin: 0;
+    margin-left: 30px;
+  }
+  .features .row #mck4 {
+    margin: 0;
+  }
+  .features .row .center2 {
+    margin-top: 0;
+  }
+  .features .row #circle3 {
+    display: block;
+  }
+  .download {
+    min-height: 35vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .download h2 {
+    font-size: 18px;
+  }
+  .download .appDownloads img {
+    height: 6vh;
+  }
+  .contact .links {
+    margin-top: 2vh;
+  }
+  .contact .links ul li {
+    padding: 0 5px;
+  }
+  .contact .links ul li img {
+    height: 35px;
+    width: 35px;
+  }
+  .contact .links ul li p {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header {
+    font-size: 11px;
+  }
+  .header .row .headLeft #logoImg {
+    margin: 5rem 0 2rem 0;
+  }
+  .header .row .headLeft2 {
+    min-height: 55vh;
+    font-size: 11px;
+  }
+  .header .row .headLeft2 ul {
+    margin-top: 10vh;
+  }
+  .features .row img {
+    margin: 0;
+    padding: 0;
+  }
+  .features .row .line {
+    height: 30px;
+  }
+  .features .row #mck1 {
+    display: none;
+  }
+  .features .row #mck2 {
+    margin: 10% 0 0 25%;
+  }
+  .features .row #mck3 {
+    display: none;
+  }
+  .features .row #mck4 {
+    margin: 0 0 0 25%;
+  }
+  .features .row .center1 {
+    padding: 10px 30px;
+  }
+  .features .row .center1 h2 {
+    margin: 0;
+  }
+  .features .row .center2 {
+    padding: 10px 30px;
+  }
+  .features .row .center2 h2 {
+    margin: 0;
+  }
+  .features .row #circle3 {
+    height: 200px;
+    width: 200px;
+  }
+  .features .row #circle3 #textIn {
+    padding-top: 5.5rem;
+  }
+  .download {
+    min-height: 45vh;
+  }
+  .download h2 {
+    margin-top: 2vh;
+    font-size: 16px;
+  }
+  .download .appDownloads {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .download .appDownloads img {
+    padding: none;
+    height: 11vh;
+  }
+  .contact form {
+    margin-top: 5vh;
+  }
+  .contact .links {
+    margin-top: 5vh;
+  }
+  .contact .links ul li {
+    padding: 0 10px;
+  }
+  .contact .links ul p {
+    display: none;
+  }
+}
+/*# sourceMappingURL=queries.css.map */
